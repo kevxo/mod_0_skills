@@ -2,12 +2,12 @@ class Food
 
 attributes:
 1. name (string)
-2. cooked (boolean)
+2. temp (float)
 3. price (float)
 4. rating (float)
 
 methods:
-1.food_hot (this will check true or false if food is cooked)
+1.food_hot (this will check if temp is >= 140.0)
 2.food_expensive (this will check the price of the food  and if its more than the price of 15)
 3. is_food_good (this will get the reviews which is the rating.)
 4. worth_buying (include the price and rating)
