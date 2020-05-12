@@ -1,0 +1,13 @@
+"steak", true, 12.00, 4.0
+
+values of each attribute
+name = "steak"
+cooked = true
+price = 12.00
+rating = 4.0
+
+method results
+1.food_hot = true
+2.food_expensive = false
+3. is_food_good = true
+4. worth_buying = true
