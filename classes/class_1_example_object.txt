@@ -1,0 +1,13 @@
+"Bob Smith", 18, 9.50, 22.
+
+values of each attribute
+name = "Bob Smith"
+age = 18
+salary = 9.50
+hours = 22
+
+method results
+ work_overtime = false
+ old_enough_to_work = true
+ works_part_time = true
+total_pay = 209.00
