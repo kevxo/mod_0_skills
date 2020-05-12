@@ -1,0 +1,13 @@
+class Employee
+
+attributes:
+1. Name (string)
+2. Age (integer)
+3. salary(float)
+4. hours (integer)
+
+Methods
+work_overtime(checks to see if its past the 40 hour mark. Uses hours attribute)
+old_enough_to_work(collects the name and checks if the age is above 18 to be eligible )
+works_part_time (checks to see if hours worked is under 25.)
+total_pay (collects the amount hours and multiplies the amount of hours worked)
