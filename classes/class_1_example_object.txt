@@ -1,13 +1,16 @@
-"Bob Smith", 18, 9.50, 22.
+Instance Bob Smith
 
 values of each attribute
-name = "Bob Smith"
+position = ["Cashier", "Host", "Server"]
 age = 18
 salary = 9.50
 hours = 22
 
 method results
- work_overtime = false if hours <= 40
- old_enough_to_work = true if age >= 18
- works_part_time = true if hours <= 25
-total_pay = 209.00 salary * 22
+1. add_hours = 5 + hours = 27 (added 5 hours to the total hours made.)
+
+2. give_raise = salary * .10 = .95 (the 10% raise gave .95 cent increase to the original salary. New salary = 10.45)
+
+3. change_age = current age + 1 = 19 ( changes current age.)
+
+4. add_position = ["Cook", "Manager"] -> ["Cashier", "Host", "Server", "Cook", "Manager"] (New positions were added.)

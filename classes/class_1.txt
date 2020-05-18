@@ -1,13 +1,18 @@
 class Employee
 
 attributes:
-1. Name (string)
+1. position (array)
 2. Age (integer)
 3. salary(float)
 4. hours (integer)
 
 Methods
-work_overtime(checks to see if its past the 40 hour mark. Uses hours attribute)
-old_enough_to_work(collects the name and checks if the age is above 18 to be eligible )
-works_part_time (checks to see if hours worked is under 25.)
-total_pay (collects the amount hours and multiplies the amount of hours worked)
+
+ 1. add_hours (the hour count is equal to how many hours the person has. Employer can
+add more hours to the person by increments of 1)
+
+ 2. give_raise( from the original salary a 10% increase will be added to the salary)
+
+ 3. change_age (change current age by increment of 1)
+
+ 4. add_position (add a new position to the current array.)

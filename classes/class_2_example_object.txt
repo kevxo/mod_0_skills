@@ -1,12 +1,16 @@
-"steak", 145.0, 12.00, 4.0
+Instance Steak
 
 values of each attribute
-name = "steak"
+type = ["NY Steak", "Rib eye", "Tri-tip"]
 temp = 145.0
 price = 12.00
-rating = 4.0
+rating = 0.0
 
 method results
-1.food_hot = true if temp >= 140
-2.food_expensive = false if price <= 15.00
-3. is_food_good = true if rating >= 3 and price <= 15.00
+1. add_discount = price * .10 = 1.80 (The price is 12.00 by having a 10% discount the price is now 10.80)
+
+2. change_temp = temp + 15.0 = 160.0 ( The temp of the steak was 145.0 but with adding more heat the temp is 160.0)
+
+3. add_rating = 3.5 + rating = 3.5 ( The rating changed to 3.5)
+
+4. add_type = ["T-Bone"] -> = ["NY Steak", "Rib eye", "Tri-tip", "T-Bone"] (A new type of steak was added to the array.)

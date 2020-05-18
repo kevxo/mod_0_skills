@@ -1,13 +1,16 @@
 class Food
 
 attributes:
-1. name (string)
+1. type (array)
 2. temp (float)
 3. price (float)
 4. rating (float)
 
 methods:
-1.food_hot (this will check if temp is >= 140.0)
-2.food_expensive (this will check the price of the food  and if its more than the price of 15)
-3. is_food_good (this will get the reviews which is the rating.)
-4. worth_buying (include the price and rating)
+1. add_discount (changes the total price by inputing a discount to the food.)
+
+2. change temp (change the current temp by adding or subtracting the temperature)
+
+3. add_rating = adding rating to the original rating.
+
+4. add_type = add new types of that certain food.
